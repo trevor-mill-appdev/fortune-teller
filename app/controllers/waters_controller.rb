@@ -11,7 +11,7 @@ class WatersController < ApplicationController
       @array_of_numbers.push(another_number)
     end
     
-    render({ :template => "aqua_views/cancer.html.erb" })
+    render({ :template => "aqua/cancer.html.erb" })
   end
 
   def scorpion
