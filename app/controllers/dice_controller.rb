@@ -1,4 +1,4 @@
-class ApplicationController < ActionController::Base
+class DiceController < ApplicationController
 
   # 1d6
     def one_d_six
@@ -51,7 +51,7 @@ class ApplicationController < ActionController::Base
       render({ :template => "dice/five_d_six.html.erb" })
     end
   
-  # 5d6  
+  # 6d6  
     def six_d_six
         
       @first = rand(1..6)
@@ -65,5 +65,5 @@ class ApplicationController < ActionController::Base
     end
   
   
-  end
+end
   
